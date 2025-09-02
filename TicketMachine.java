@@ -25,7 +25,7 @@ public class TicketMachine
      */
     public TicketMachine(int price)
     {
-        this.price = price;
+        price = price;
         balance = 0;
         total = 0;
     }
@@ -62,7 +62,17 @@ public class TicketMachine
     
     }
     
-
+    public void prompt ()
+    
+    {
+       //Please insert the correct amount of money. 
+    System.out.println("Please inser the correct amount of money.");
+    }
+    
+    public void showPrice ()
+    {
+        System.out.println("The price of a ticket is"+ price + "cents");
+    }
     /**
      * Print a ticket.
      * Update the total collected and

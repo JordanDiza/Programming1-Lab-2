@@ -87,4 +87,20 @@ Age = currentAge;
 { 
     alive = status;
 }
-#36 
+#36  
+public TicketMachine(int price)
+    {
+        this.price = price;
+        balance = 0;
+        total = 0;
+    }
+#37 My cat has green eyes.
+#38 public void prompt ()
+    
+    {
+       //Please insert the correct amount of money. 
+    System.out.println("Please inser the correct amount of money.");
+    }
+#39 # price cents.
+#40 # price cents.
+#41
