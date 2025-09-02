@@ -53,7 +53,15 @@ public class TicketMachine
     public void insertMoney(int amount)
     {
         balance = balance + amount;
+        
+    } 
+    
+    public int getTotal()
+    {
+        return total; 
+    
     }
+    
 
     /**
      * Print a ticket.
