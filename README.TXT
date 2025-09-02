@@ -103,4 +103,25 @@ public TicketMachine(int price)
     }
 #39 # price cents.
 #40 # price cents.
-#41
+#41 public void showPrice()
+{
+    System.out.println)("The price of a ticket is" + 200 + "cents:"
+}
+#42 Dont understand
+#43 ublic void printTicket()
+    {
+        // Simulate the printing of a ticket.
+        System.out.println("##################");
+        System.out.println("# The BlueJ Line");
+        System.out.println("# Ticket");
+        System.out.printf("# %d cents.%n", price);
+        System.out.println("##################");
+        System.out.println();
+
+        // Update the total collected with the balance.
+        total = total + balance;
+        // Clear the balance.
+        balance = 0;
+    } 
+**had to change those curly quotation marks
+#44
