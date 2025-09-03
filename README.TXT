@@ -51,7 +51,7 @@ Constructor: public TicketMachine(int cost)
 #20 Yes
 #21 public Pet(String petsName) 
 { 
-    Name = petsName 
+    this.name = petsName 
 } 
 #22 public Date(String month, int day, int year)
 #23 They are the same expect for the method name
@@ -139,7 +139,7 @@ The object automatically create by it self without me having to type the ticket 
     }
 #46 public void Empty()
 {
-    Total = 0
+    total = 0
 }
 it doesn't need any parameters because the the total field is 0 and there is no call method needed here?
 t is a mutator since it changes the value of the ticket when I empty it
