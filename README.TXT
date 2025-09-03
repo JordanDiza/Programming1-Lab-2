@@ -142,3 +142,5 @@ The object automatically create by it self without me having to type the ticket 
     Total = 0
 }
 it doesn't need any parameters because the the total field is 0 and there is no call method needed here?
+t is a mutator since it changes the value of the ticket when I empty it
+It modifies the total to 0 after emptying it
