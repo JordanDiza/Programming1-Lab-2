@@ -25,7 +25,7 @@ public class TicketMachine
      */
     public TicketMachine(int price)
     {
-        price = price;
+        this.price = price;
         balance = 0;
         total = 0;
     }
@@ -50,7 +50,7 @@ public class TicketMachine
     /**
      * Receive an amount of money from a customer.
      */
-    public void insertMoney(int amount)
+    public void insertMoney(int amount )
     {
         balance = balance + amount;
         
@@ -61,7 +61,10 @@ public class TicketMachine
         return total; 
     
     }
-    
+    public void Empty()
+{
+    total = 0;
+}
     public void prompt ()
     
     {
@@ -71,10 +74,8 @@ public class TicketMachine
     
     public void showPrice ()
     
-    { TicketMachine ticketMa1 = new TicketMachine(100);
-      TicketMachine ticketMa2 = new TicketMachine(200);
-        
-        System.out.println("The price of a ticket is"+ "200" + "cents");
+    { 
+        System.out.println("The price of a ticket is"+ price + "cents");
     }
     
     /**

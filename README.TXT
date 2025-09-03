@@ -124,4 +124,21 @@ public TicketMachine(int price)
         balance = 0;
     } 
 **had to change those curly quotation marks
-#44
+#44 public TicketMachine()
+    {
+        price = 1000;
+        balance = 0;
+        total = 0;
+    }
+The object automatically create by it self without me having to type the ticket price.
+#45 public TicketMachine(int price)
+    {
+        this.price = price;
+        balance = 0;
+        total = 0;
+    }
+#46 public void Empty()
+{
+    Total = 0
+}
+it doesn't need any parameters because the the total field is 0 and there is no call method needed here?
