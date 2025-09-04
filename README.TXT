@@ -51,7 +51,7 @@ Constructor: public TicketMachine(int cost)
 #20 Yes
 #21 public Pet(String petsName) 
 { 
-    this.name = petsName 
+    name = petsName 
 } 
 #22 public Date(String month, int day, int year)
 #23 They are the same expect for the method name
@@ -70,7 +70,7 @@ The printTickets simulate the printing of a ticket, there is no return
 The return type is "void"
 #30 getBalance = 0
 insertMoney= 50
-balance= 50
+balance= -50
 #31  
 / public void increaseScore(int points) 
 { 
@@ -82,7 +82,7 @@ balance= 50
     price = price - amount;
 }
 #34 public void setAge(int currentAge)
-Age = currentAge;
+age = currentAge;
 #35 public void setAlive(boolean status)
 { 
     alive = status;
@@ -108,7 +108,7 @@ public TicketMachine(int price)
     System.out.println)("The price of a ticket is" + 200 + "cents:"
 }
 #42 Dont understand
-#43 ublic void printTicket()
+#43 public void printTicket()
     {
         // Simulate the printing of a ticket.
         System.out.println("##################");
