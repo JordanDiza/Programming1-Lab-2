@@ -95,7 +95,7 @@ public TicketMachine(int price)
         total = 0;
     }
 #37 My cat has green eyes.
-#38 public void prompt ()
+#38 public void prompt()
     
     {
        //Please insert the correct amount of money. 
