@@ -90,7 +90,7 @@ age = currentAge;
 #36  
 public TicketMachine(int price)
     {
-        this.price = price;
+        price = price;
         balance = 0;
         total = 0;
     }
